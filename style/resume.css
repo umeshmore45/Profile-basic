@@ -21,7 +21,9 @@ text-decoration: none;
 img{
     border: 2px solid black;
     margin: auto;
-    position: relative;;
+    position: relative;
+    display: inline;
+
 }
 
 
@@ -29,4 +31,26 @@ img{
 body{
 
     background-color:#ededed;
+}
+
+
+footer{
+    color:white;
+    background-color: black;
+}
+
+footer h3{
+    padding-top:20px;
+    margin:30px ;
+}
+
+
+footer li{  
+display: inline;
+margin: 30px;
+}
+
+footer p{
+    text-align: center;
+    padding-bottom: 20px;
 }
